@@ -1,0 +1,26 @@
+def sum_odd_numbers(start, end):
+    
+    total = 0
+    for number in range(start, end):
+        if number % 2 == 1:
+            total = total + number
+            print(number)
+    return total
+
+def main():
+    start = int(input("Batas Bawah: "))
+    end = int(input("Batas Atas: "))
+
+    if (start < 0 or end < 0):
+        print("Batas bawah dan atas tidak boleh bilangan negatif")
+        return
+
+    if (start <= end):
+        odd_sum = sum_odd_numbers(start, end)
+        print("total:", odd_sum)
+    else:
+        print("Batas atas harus kurang dari atau sama dengan batas atas. Silakan ulangi input!")
+        return
+    
+if __name__ == "__main__":
+    main()
