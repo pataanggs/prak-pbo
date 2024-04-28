@@ -5,6 +5,8 @@ Isi:
 2. Cara Menjalankan Game
 3. Cara Bermain
 
+##################################################################################################
+
 1. Perkenalan:
     Centipede adalah permainan arcade klasik di mana pemain mengontrol penembak di bagian bawah layar dan harus menembak jatuh kelabang saat bergerak melintasi layar, sambil menghindari rintangan dan musuh lainnya.
 
